@@ -1,0 +1,27 @@
+{
+  "name": "webscrape",
+  "version": "1.0.0",
+  "description": "a webscraper for 1dv023",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar93/webscrape.git"
+  },
+  "author": "Omar Alhamad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar93/webscrape/issues"
+  },
+  "homepage": "https://github.com/omar93/webscrape#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "got": "^11.8.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
