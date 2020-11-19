@@ -634,8 +634,7 @@ Nov 19, 2020 23:27:17.010 [10436] DEBUG - Auth: authenticated user 1 as omaralha
 Nov 19, 2020 23:27:17.010 [6704] DEBUG - Request: [192.168.10.224:59437 (Subnet)] GET /status/sessions (29 live) TLS GZIP Signed-in Token (omaralhamad93@gmail.com)
 Nov 19, 2020 23:27:17.010 [6704] DEBUG - [Now] Adding 1 sessions.
 Nov 19, 2020 23:27:17.013 [5768] DEBUG - Completed: [192.168.10.224:59437] 200 GET /status/sessions (29 live) TLS GZIP 2ms 2573 bytes (pipelined: 5)
-Nov 19, 2020 23:27:17.013 [10436] DEBUG - Completed: [155.4.57.54:62032] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=368356&playQueueItemID=305&state=playing&has
-=1&context=source%3Ahub.movie.recentlyadded&time=369000&duration=5764000 (29 live) TLS GZIP 14ms 459 bytes (pipelined: 2)
+Nov 19, 2020 23:27:17.013 [10436] DEBUG - Completed: [155.4.57.54:62032] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=368356&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=369000&duration=5764000 (29 live) TLS GZIP 14ms 459 bytes (pipelined: 2)
 Nov 19, 2020 23:27:17.319 [12156] DEBUG - PubSubManager: Time to connect to 82.94.168.21 was 55 ms.
 Nov 19, 2020 23:27:17.319 [12156] DEBUG - PubSubManager: Time to connect to 82.94.168.18 was 59 ms.
 Nov 19, 2020 23:27:17.319 [12156] DEBUG - PubSubManager: Time to connect to 139.162.215.242 was 75 ms.
@@ -916,3 +915,932 @@ Nov 19, 2020 23:28:07.008 [6704] DEBUG - [Now] Updated play state for /library/m
 Nov 19, 2020 23:28:07.009 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
 Nov 19, 2020 23:28:07.015 [10436] DEBUG - Completed: [155.4.57.54:62053] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=418409&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=419000&duration=5764000 (9 live) TLS GZIP 12ms 459 bytes (pipelined: 2)
 Nov 19, 2020 23:28:09.304 [5768] DEBUG - Completed: [192.168.10.224:59444] 200 GET /player/proxy/poll?deviceClass=pc&protocolVersion=3&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (9 live) TLS GZIP 20011ms 5 bytes (pipelined: 4)
+Nov 19, 2020 23:28:16.997 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:17.000 [6704] DEBUG - Request: [155.4.57.54:62053 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=428428&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=429000&duration=5764000 (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:17.002 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 429000/5764000ms for guid=, playbackTime=428428ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:28:17.005 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 429000 ms by account 16838260!
+Nov 19, 2020 23:28:17.005 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:28:17.005 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:28:17.006 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:28:17.006 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:28:17.007 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:28:17.012 [10436] DEBUG - Completed: [155.4.57.54:62053] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=428428&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=429000&duration=5764000 (8 live) TLS GZIP 11ms 459 bytes (pipelined: 3)
+Nov 19, 2020 23:28:19.205 [8532] DEBUG - [CompanionProxy] player ea75stivajhq9ul6hj6ybjhd was last refreshed 10 seconds ago
+Nov 19, 2020 23:28:23.790 [10436] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:28:26.998 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:27.000 [6704] DEBUG - Request: [155.4.57.54:62053 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=438438&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=439000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:27.002 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 439000/5764000ms for guid=, playbackTime=438438ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:28:27.005 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 439000 ms by account 16838260!
+Nov 19, 2020 23:28:27.005 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:28:27.005 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:28:27.006 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:28:27.006 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:28:27.007 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:28:27.012 [10436] DEBUG - Completed: [155.4.57.54:62053] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=438438&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=439000&duration=5764000 (6 live) TLS GZIP 11ms 459 bytes (pipelined: 4)
+Nov 19, 2020 23:28:27.433 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:28:27.434 [10436] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:28:27.475 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:27.475 [6704] DEBUG - Request: [155.4.57.54:62061 (WAN)] GET /:/websockets/notifications (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:27.475 [6704] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:28:27.475 [6704] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:28:27.479 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:28:27.479 [10436] DEBUG - Completed after connection close: [155.4.57.54:62050] -3 GET /:/websockets/notifications (7 live) TLS GZIP 30038ms 716 bytes
+Nov 19, 2020 23:28:27.523 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:27.523 [5768] DEBUG - Request: [155.4.57.54:62053 (WAN)] GET /activities (6 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:28:27.524 [10436] DEBUG - Completed: [155.4.57.54:62053] 401 GET /activities (6 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:28:27.617 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:27.617 [6704] DEBUG - Request: [155.4.57.54:62064 (WAN)] GET /media/providers (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:27.622 [5768] DEBUG - Completed: [155.4.57.54:62064] 200 GET /media/providers (6 live) TLS GZIP 5ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:28:29.205 [11448] DEBUG - [CompanionProxy] player ea75stivajhq9ul6hj6ybjhd was last refreshed 20 seconds ago
+Nov 19, 2020 23:28:34.209 [10436] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:28:36.999 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:37.002 [6704] DEBUG - Request: [155.4.57.54:62064 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=448447&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=449000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:37.003 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 449000/5764000ms for guid=, playbackTime=448447ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:28:37.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 449000 ms by account 16838260!
+Nov 19, 2020 23:28:37.006 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:28:37.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:28:37.007 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:28:37.007 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:28:37.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:28:37.013 [10436] DEBUG - Completed: [155.4.57.54:62064] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=448447&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=449000&duration=5764000 (6 live) TLS GZIP 11ms 459 bytes (pipelined: 2)
+Nov 19, 2020 23:28:39.216 [4024] DEBUG - [CompanionProxy] player ea75stivajhq9ul6hj6ybjhd was last refreshed 30 seconds ago
+Nov 19, 2020 23:28:46.999 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:47.002 [6704] DEBUG - Request: [155.4.57.54:62064 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=458456&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=459000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:47.004 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 459000/5764000ms for guid=, playbackTime=458456ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:28:47.007 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 459000 ms by account 16838260!
+Nov 19, 2020 23:28:47.007 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:28:47.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:28:47.008 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:28:47.008 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:28:47.009 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:28:47.014 [10436] DEBUG - Completed: [155.4.57.54:62064] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=458456&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=459000&duration=5764000 (6 live) TLS GZIP 12ms 459 bytes (pipelined: 3)
+Nov 19, 2020 23:28:49.231 [8532] DEBUG - [CompanionProxy] player ea75stivajhq9ul6hj6ybjhd was last refreshed 40 seconds ago
+Nov 19, 2020 23:28:49.231 [8532] DEBUG - [CompanionProxy] player ea75stivajhq9ul6hj6ybjhd was not refreshed for over 30 seconds, dropping it.
+Nov 19, 2020 23:28:54.795 [10436] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:28:56.999 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:57.001 [6704] DEBUG - Request: [155.4.57.54:62064 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=468460&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=469000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:57.003 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 469000/5764000ms for guid=, playbackTime=468460ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:28:57.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 469000 ms by account 16838260!
+Nov 19, 2020 23:28:57.007 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:28:57.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:28:57.008 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:28:57.008 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:28:57.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:28:57.017 [10436] DEBUG - Completed: [155.4.57.54:62064] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=468460&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=469000&duration=5764000 (6 live) TLS GZIP 15ms 459 bytes (pipelined: 4)
+Nov 19, 2020 23:28:57.436 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:28:57.437 [10436] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:28:57.458 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:57.458 [6704] DEBUG - Request: [155.4.57.54:62070 (WAN)] GET /:/websockets/notifications (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:57.459 [6704] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:28:57.459 [6704] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:28:57.482 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:28:57.482 [10436] DEBUG - Completed after connection close: [155.4.57.54:62061] -3 GET /:/websockets/notifications (7 live) TLS GZIP 30006ms 716 bytes
+Nov 19, 2020 23:28:57.507 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:57.507 [5768] DEBUG - Request: [155.4.57.54:62064 (WAN)] GET /activities (6 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:28:57.508 [10436] DEBUG - Completed: [155.4.57.54:62064] 401 GET /activities (6 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:28:57.585 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:28:57.585 [6704] DEBUG - Request: [155.4.57.54:62073 (WAN)] GET /media/providers (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:28:57.587 [5768] DEBUG - Completed: [155.4.57.54:62073] 200 GET /media/providers (6 live) TLS GZIP 1ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:29:04.990 [5768] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:29:06.999 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:07.002 [6704] DEBUG - Request: [155.4.57.54:62073 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=478467&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=479000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:07.004 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 479000/5764000ms for guid=, playbackTime=478467ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:29:07.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 479000 ms by account 16838260!
+Nov 19, 2020 23:29:07.007 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:29:07.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:29:07.008 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:29:07.008 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:29:07.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:29:07.014 [10436] DEBUG - Completed: [155.4.57.54:62073] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=478467&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=479000&duration=5764000 (6 live) TLS GZIP 11ms 459 bytes (pipelined: 2)
+Nov 19, 2020 23:29:07.232 [5160] DEBUG - BPQ: [Starting] -> [Processing]
+Nov 19, 2020 23:29:07.235 [5160] DEBUG - BPQ: generating queue items from 1 generator(s)
+Nov 19, 2020 23:29:07.239 [5160] DEBUG - Sync: updating status for sync list 27258971, sync item 45894681, generator 14
+Nov 19, 2020 23:29:07.244 [5160] DEBUG - BPQ: generated 0 item(s) for queue
+Nov 19, 2020 23:29:07.244 [5160] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Nov 19, 2020 23:29:07.244 [5160] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Nov 19, 2020 23:29:07.245 [5160] DEBUG - BPQ: [Processing] -> [Idle]
+Nov 19, 2020 23:29:09.128 [6704] DEBUG - Request: [127.0.0.1:60193 (Loopback)] GET /servers (7 live) GZIP Signed-in Token (omaralhamad93@gmail.com)
+Nov 19, 2020 23:29:09.130 [5768] DEBUG - Completed: [127.0.0.1:60193] 200 GET /servers (7 live) GZIP 1ms 495 bytes
+Nov 19, 2020 23:29:09.143 [6704] DEBUG - Request: [127.0.0.1:60194 (Loopback)] GET /library/sections (8 live) GZIP Signed-in Token (omaralhamad93@gmail.com)
+Nov 19, 2020 23:29:09.145 [5768] DEBUG - Completed: [127.0.0.1:60194] 200 GET /library/sections (8 live) GZIP 3ms 870 bytes
+Nov 19, 2020 23:29:09.155 [6704] DEBUG - Request: [127.0.0.1:60195 (Loopback)] GET /channels/all (9 live) GZIP Signed-in Token (omaralhamad93@gmail.com)
+Nov 19, 2020 23:29:09.156 [5768] DEBUG - Completed: [127.0.0.1:60195] 200 GET /channels/all (9 live) GZIP 0ms 387 bytes
+Nov 19, 2020 23:29:09.174 [6704] DEBUG - Request: [127.0.0.1:60196 (Loopback)] GET /library/sections (10 live) GZIP Signed-in Token (omaralhamad93@gmail.com)
+Nov 19, 2020 23:29:09.177 [5768] DEBUG - Completed: [127.0.0.1:60196] 200 GET /library/sections (10 live) GZIP 2ms 870 bytes
+Nov 19, 2020 23:29:09.186 [6704] DEBUG - Request: [127.0.0.1:60197 (Loopback)] GET /channels/all (11 live) GZIP Signed-in Token (omaralhamad93@gmail.com)
+Nov 19, 2020 23:29:09.186 [5768] DEBUG - Completed: [127.0.0.1:60197] 200 GET /channels/all (11 live) GZIP 0ms 387 bytes
+Nov 19, 2020 23:29:16.999 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:17.002 [6704] DEBUG - Request: [155.4.57.54:62073 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=488487&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=489000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:17.004 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 489000/5764000ms for guid=, playbackTime=488487ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:29:17.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 489000 ms by account 16838260!
+Nov 19, 2020 23:29:17.006 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:29:17.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:29:17.007 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:29:17.007 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:29:17.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:29:17.014 [10436] DEBUG - Completed: [155.4.57.54:62073] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=488487&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=489000&duration=5764000 (6 live) TLS GZIP 11ms 458 bytes (pipelined: 3)
+Nov 19, 2020 23:29:26.005 [10436] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:29:26.999 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:27.002 [6704] DEBUG - Request: [155.4.57.54:62073 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=498493&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=499000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:27.003 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 499000/5764000ms for guid=, playbackTime=498493ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:29:27.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 499000 ms by account 16838260!
+Nov 19, 2020 23:29:27.006 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:29:27.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:29:27.007 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:29:27.007 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:29:27.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:29:27.013 [10436] DEBUG - Completed: [155.4.57.54:62073] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=498493&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=499000&duration=5764000 (6 live) TLS GZIP 11ms 459 bytes (pipelined: 4)
+Nov 19, 2020 23:29:27.439 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:29:27.439 [10436] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:29:27.452 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:27.452 [6704] DEBUG - Request: [155.4.57.54:62084 (WAN)] GET /:/websockets/notifications (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:27.452 [6704] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:29:27.452 [6704] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:29:27.486 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:29:27.486 [10436] DEBUG - Completed after connection close: [155.4.57.54:62070] -3 GET /:/websockets/notifications (7 live) TLS GZIP 30027ms 716 bytes
+Nov 19, 2020 23:29:27.500 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:27.500 [5768] DEBUG - Request: [155.4.57.54:62073 (WAN)] GET /activities (6 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:29:27.501 [10436] DEBUG - Completed: [155.4.57.54:62073] 401 GET /activities (6 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:29:27.589 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:27.590 [6704] DEBUG - Request: [155.4.57.54:62087 (WAN)] GET /media/providers (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:27.596 [10436] DEBUG - Completed: [155.4.57.54:62087] 200 GET /media/providers (6 live) TLS GZIP 5ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:29:36.282 [5768] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:29:36.999 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:37.002 [6704] DEBUG - Request: [155.4.57.54:62087 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=508502&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=509000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:37.003 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 509000/5764000ms for guid=, playbackTime=508502ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:29:37.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 509000 ms by account 16838260!
+Nov 19, 2020 23:29:37.006 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:29:37.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:29:37.007 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:29:37.007 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:29:37.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:29:37.013 [10436] DEBUG - Completed: [155.4.57.54:62087] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=508502&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=509000&duration=5764000 (6 live) TLS GZIP 11ms 458 bytes (pipelined: 2)
+Nov 19, 2020 23:29:46.999 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:47.002 [6704] DEBUG - Request: [155.4.57.54:62087 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=518513&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=519000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:47.004 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 519000/5764000ms for guid=, playbackTime=518513ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:29:47.006 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 519000 ms by account 16838260!
+Nov 19, 2020 23:29:47.007 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:29:47.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:29:47.008 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:29:47.008 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:29:47.008 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:29:47.028 [10436] DEBUG - Completed: [155.4.57.54:62087] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=518513&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=519000&duration=5764000 (6 live) TLS GZIP 25ms 459 bytes (pipelined: 3)
+Nov 19, 2020 23:29:56.859 [5768] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:29:57.001 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:57.002 [6704] DEBUG - Request: [155.4.57.54:62087 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=528520&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=529000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:57.003 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 529000/5764000ms for guid=, playbackTime=528520ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:29:57.005 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 529000 ms by account 16838260!
+Nov 19, 2020 23:29:57.005 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:29:57.006 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:29:57.006 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:29:57.006 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:29:57.007 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:29:57.012 [10436] DEBUG - Completed: [155.4.57.54:62087] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=528520&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=529000&duration=5764000 (6 live) TLS GZIP 10ms 459 bytes (pipelined: 4)
+Nov 19, 2020 23:29:57.443 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:29:57.444 [10436] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:29:57.493 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:29:57.494 [10436] DEBUG - Completed after connection close: [155.4.57.54:62084] -3 GET /:/websockets/notifications (7 live) TLS GZIP 30041ms 716 bytes
+Nov 19, 2020 23:29:57.494 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:57.495 [6704] DEBUG - Request: [155.4.57.54:62096 (WAN)] GET /:/websockets/notifications (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:57.495 [6704] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:29:57.495 [6704] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:29:57.543 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:57.543 [10436] DEBUG - Request: [155.4.57.54:62087 (WAN)] GET /activities (6 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:29:57.543 [5768] DEBUG - Completed: [155.4.57.54:62087] 401 GET /activities (6 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:29:57.633 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:29:57.633 [6704] DEBUG - Request: [155.4.57.54:62099 (WAN)] GET /media/providers (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:29:57.638 [5768] DEBUG - Completed: [155.4.57.54:62099] 200 GET /media/providers (6 live) TLS GZIP 5ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:30:07.001 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:07.004 [6704] DEBUG - Request: [155.4.57.54:62099 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=538526&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=539000&duration=5764000 (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:07.006 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 539000/5764000ms for guid=, playbackTime=538526ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:30:07.008 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 539000 ms by account 16838260!
+Nov 19, 2020 23:30:07.009 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:30:07.009 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:30:07.010 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:30:07.010 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:30:07.011 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:30:07.016 [10436] DEBUG - Completed: [155.4.57.54:62099] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=538526&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=539000&duration=5764000 (6 live) TLS GZIP 11ms 459 bytes (pipelined: 2)
+Nov 19, 2020 23:30:07.131 [10436] DEBUG - EventSource: Got event [data] '<Message host="172.104.245.120" port="443" command="startRelay"/>'
+Nov 19, 2020 23:30:14.943 [8316] DEBUG - Network change.
+Nov 19, 2020 23:30:14.943 [8316] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Nov 19, 2020 23:30:14.960 [8316] DEBUG - Network change notification but nothing changed.
+Nov 19, 2020 23:30:14.960 [8316] DEBUG - Network change.
+Nov 19, 2020 23:30:14.960 [8316] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Nov 19, 2020 23:30:14.970 [8316] DEBUG - Network change notification but nothing changed.
+Nov 19, 2020 23:30:15.399 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:15.400 [6704] DEBUG - Request: [155.4.14.10:60478 (WAN)] GET / (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:15.404 [5768] DEBUG - Completed: [155.4.14.10:60478] 200 GET / (7 live) TLS GZIP 4ms 3796 bytes
+Nov 19, 2020 23:30:15.496 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:15.496 [6704] DEBUG - Request: [155.4.14.10:60483 (WAN)] GET /media/providers (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:15.499 [5768] DEBUG - Completed: [155.4.14.10:60483] 200 GET /media/providers (8 live) TLS GZIP 3ms 4106 bytes
+Nov 19, 2020 23:30:15.528 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:15.528 [6704] DEBUG - Request: [155.4.14.10:60482 (WAN)] GET /:/eventsource/notifications (7 live) TLS Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:15.529 [6704] DEBUG - Content-Length is -1 (of total: -1).
+Nov 19, 2020 23:30:15.592 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:15.592 [6704] DEBUG - Request: [155.4.14.10:60486 (WAN)] GET /security/token?type=delegation&scope=all (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:15.594 [5768] DEBUG - Completed: [155.4.14.10:60486] 200 GET /security/token?type=delegation&scope=all (8 live) TLS GZIP 1ms 420 bytes
+Nov 19, 2020 23:30:16.999 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:17.002 [6704] DEBUG - Request: [155.4.57.54:62099 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=548594&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=549000&duration=5764000 (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:17.004 [6704] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 549000/5764000ms for guid=, playbackTime=548594ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:30:17.007 [6704] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 549000 ms by account 16838260!
+Nov 19, 2020 23:30:17.007 [6704] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:30:17.007 [6704] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:30:17.008 [6704] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:30:17.008 [6704] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:30:17.009 [6704] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:30:17.031 [10436] DEBUG - Completed: [155.4.57.54:62099] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=548594&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=549000&duration=5764000 (7 live) TLS GZIP 28ms 459 bytes (pipelined: 3)
+Nov 19, 2020 23:30:20.405 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:20.406 [6704] DEBUG - Request: [155.4.14.10:60518 (WAN)] GET /media/providers (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:20.412 [5768] DEBUG - Completed: [155.4.14.10:60518] 200 GET /media/providers (8 live) TLS GZIP 6ms 4106 bytes
+Nov 19, 2020 23:30:20.569 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:20.569 [6704] DEBUG - Request: [155.4.14.10:60521 (WAN)] GET /library/sections/3/all?type=1&excludeFields=summary&excludeElements=Director,Producer,Writer,Role,Genre,Country (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:20.667 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:20.667 [7112] DEBUG - Request: [155.4.14.10:60522 (WAN)] GET /media/providers (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:20.669 [10436] DEBUG - Completed: [155.4.14.10:60522] 200 GET /media/providers (9 live) TLS GZIP 1ms 4196 bytes (pipelined: 1)
+Nov 19, 2020 23:30:20.737 [6704] DEBUG - It took 125.000000 ms to retrieve 329 items.
+Nov 19, 2020 23:30:20.781 [5768] DEBUG - Completed: [155.4.14.10:60521] 200 GET /library/sections/3/all?type=1&excludeFields=summary&excludeElements=Director,Producer,Writer,Role,Genre,Country (10 live) TLS GZIP 211ms 61179 bytes
+Nov 19, 2020 23:30:20.801 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:20.801 [6704] DEBUG - Request: [155.4.14.10:60524 (WAN)] GET /:/websockets/notifications (10 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:20.802 [6704] DEBUG - WebSocket: Performing handshake from origin http://127.0.0.1:32400
+Nov 19, 2020 23:30:20.802 [6704] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:30:20.907 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:20.907 [5768] DEBUG - Request: [155.4.14.10:60522 (WAN)] GET /activities (9 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:30:20.908 [10436] DEBUG - Completed: [155.4.14.10:60522] 401 GET /activities (9 live) TLS GZIP 0ms 436 bytes
+Nov 19, 2020 23:30:20.991 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:20.991 [6704] DEBUG - Request: [155.4.14.10:60528 (WAN)] GET /library/sections/4/all?type=2&excludeFields=summary&excludeElements=Director,Producer,Writer,Role,Genre,Country (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:21.056 [5768] DEBUG - Completed: [155.4.14.10:60528] 200 GET /library/sections/4/all?type=2&excludeFields=summary&excludeElements=Director,Producer,Writer,Role,Genre,Country (9 live) TLS GZIP 64ms 4794 bytes
+Nov 19, 2020 23:30:21.650 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:21.651 [6704] DEBUG - Request: [155.4.14.10:60529 (WAN)] GET /media/providers (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:21.657 [10436] DEBUG - Completed: [155.4.14.10:60529] 200 GET /media/providers (9 live) TLS GZIP 6ms 4196 bytes (pipelined: 1)
+Nov 19, 2020 23:30:27.000 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:27.001 [7112] DEBUG - Request: [155.4.57.54:62099 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=558601&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=559000&duration=5764000 (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:27.002 [7112] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 559000/5764000ms for guid=, playbackTime=558601ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:30:27.003 [7112] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 559000 ms by account 16838260!
+Nov 19, 2020 23:30:27.004 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:30:27.004 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:30:27.004 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:30:27.004 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:30:27.005 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:30:27.009 [10436] DEBUG - Completed: [155.4.57.54:62099] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=558601&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=559000&duration=5764000 (9 live) TLS GZIP 8ms 459 bytes (pipelined: 4)
+Nov 19, 2020 23:30:27.447 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:30:27.448 [10436] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:30:27.477 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:27.477 [7112] DEBUG - Request: [155.4.57.54:62123 (WAN)] GET /:/websockets/notifications (10 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:27.477 [7112] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:30:27.478 [7112] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:30:27.492 [5768] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:30:27.493 [5768] DEBUG - Completed after connection close: [155.4.57.54:62096] -3 GET /:/websockets/notifications (10 live) TLS GZIP 29998ms 716 bytes
+Nov 19, 2020 23:30:27.524 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:27.525 [10436] DEBUG - Request: [155.4.57.54:62099 (WAN)] GET /activities (9 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:30:27.525 [5768] DEBUG - Completed: [155.4.57.54:62099] 401 GET /activities (9 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:30:27.609 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:27.610 [7112] DEBUG - Request: [155.4.57.54:62126 (WAN)] GET /media/providers (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:27.615 [5768] DEBUG - Completed: [155.4.57.54:62126] 200 GET /media/providers (9 live) TLS GZIP 5ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:30:37.001 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:37.004 [7112] DEBUG - Request: [155.4.57.54:62126 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=568614&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=569000&duration=5764000 (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:37.006 [7112] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 569000/5764000ms for guid=, playbackTime=568614ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:30:37.008 [7112] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 569000 ms by account 16838260!
+Nov 19, 2020 23:30:37.009 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:30:37.009 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:30:37.010 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:30:37.010 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:30:37.011 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:30:37.016 [10436] DEBUG - Completed: [155.4.57.54:62126] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=568614&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=569000&duration=5764000 (9 live) TLS GZIP 12ms 459 bytes (pipelined: 2)
+Nov 19, 2020 23:30:47.002 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:47.005 [7112] DEBUG - Request: [155.4.57.54:62126 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=578625&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=579000&duration=5764000 (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:47.007 [7112] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 579000/5764000ms for guid=, playbackTime=578625ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:30:47.009 [7112] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 579000 ms by account 16838260!
+Nov 19, 2020 23:30:47.010 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:30:47.010 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:30:47.011 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:30:47.011 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:30:47.012 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:30:47.028 [5768] DEBUG - Completed: [155.4.57.54:62126] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=578625&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=579000&duration=5764000 (9 live) TLS GZIP 23ms 459 bytes (pipelined: 3)
+Nov 19, 2020 23:30:57.001 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:57.004 [7112] DEBUG - Request: [155.4.57.54:62126 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=588635&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=589000&duration=5764000 (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:57.006 [7112] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 589000/5764000ms for guid=, playbackTime=588635ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:30:57.008 [7112] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 589000 ms by account 16838260!
+Nov 19, 2020 23:30:57.008 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:30:57.009 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:30:57.010 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:30:57.010 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:30:57.010 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:30:57.030 [10436] DEBUG - Completed: [155.4.57.54:62126] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=588635&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=589000&duration=5764000 (8 live) TLS GZIP 26ms 458 bytes (pipelined: 4)
+Nov 19, 2020 23:30:57.449 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:30:57.450 [10436] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:30:57.495 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:30:57.495 [10436] DEBUG - Completed after connection close: [155.4.57.54:62123] -3 GET /:/websockets/notifications (9 live) TLS GZIP 30017ms 716 bytes
+Nov 19, 2020 23:30:57.510 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:57.511 [7112] DEBUG - Request: [155.4.57.54:62135 (WAN)] GET /:/websockets/notifications (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:57.511 [7112] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:30:57.511 [7112] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:30:57.558 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:57.558 [5768] DEBUG - Request: [155.4.57.54:62126 (WAN)] GET /activities (8 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:30:57.558 [10436] DEBUG - Completed: [155.4.57.54:62126] 401 GET /activities (8 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:30:57.642 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:30:57.643 [7112] DEBUG - Request: [155.4.57.54:62138 (WAN)] GET /media/providers (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:30:57.648 [10436] DEBUG - Completed: [155.4.57.54:62138] 200 GET /media/providers (8 live) TLS GZIP 5ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:31:07.001 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:07.004 [7112] DEBUG - Request: [155.4.57.54:62138 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=598647&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=599000&duration=5764000 (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:07.006 [7112] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state playing, progress of 599000/5764000ms for guid=, playbackTime=598647ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:31:07.008 [7112] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 599000 ms by account 16838260!
+Nov 19, 2020 23:31:07.009 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:31:07.009 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:31:07.010 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:31:07.010 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:31:07.010 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:31:07.026 [10436] DEBUG - Completed: [155.4.57.54:62138] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=598647&playQueueItemID=305&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=599000&duration=5764000 (8 live) TLS GZIP 22ms 459 bytes (pipelined: 2)
+Nov 19, 2020 23:31:10.553 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:10.556 [7112] DEBUG - Request: [155.4.57.54:62138 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=601649&playQueueItemID=305&state=stopped&hasMDE=1&time=602000&duration=5764000 (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:10.558 [7112] DEBUG - Client [lylzp422jd5y5szafcfag1sq] reporting timeline state stopped, progress of 602000/5764000ms for guid=, playbackTime=601649ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:31:10.560 [7112] DEBUG - Play progress on 500 'Borat Subsequent Moviefilm' - got played 602000 ms by account 16838260!
+Nov 19, 2020 23:31:10.590 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:31:10.590 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:31:10.591 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:31:10.591 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:31:10.591 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 3 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:31:10.598 [10436] DEBUG - Completed: [155.4.57.54:62138] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=601649&playQueueItemID=305&state=stopped&hasMDE=1&time=602000&duration=5764000 (8 live) TLS GZIP 41ms 458 bytes (pipelined: 3)
+Nov 19, 2020 23:31:18.885 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:31:18.885 [10436] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:31:18.885 [5768] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:31:18.885 [5768] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:31:18.885 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:31:18.885 [10436] DEBUG - Completed after connection close: [155.4.57.54:62135] -3 GET /:/websockets/notifications (8 live) TLS GZIP 21374ms 482 bytes
+Nov 19, 2020 23:31:18.885 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:31:18.885 [10436] DEBUG - Completed after connection close: [155.4.57.54:62040] -3 GET /:/websockets/notifications (7 live) TLS GZIP 244423ms 5976 bytes
+Nov 19, 2020 23:31:24.583 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:24.584 [7112] DEBUG - Request: [155.4.57.54:62171 (WAN)] GET /media/providers (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:24.586 [10436] DEBUG - Completed: [155.4.57.54:62171] 200 GET /media/providers (6 live) TLS GZIP 2ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:31:24.670 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:24.671 [7112] DEBUG - Request: [155.4.57.54:62179 (WAN)] GET /:/websockets/notifications (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:24.671 [7112] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:31:24.671 [7112] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:31:24.740 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:24.740 [5768] DEBUG - Request: [155.4.57.54:62171 (WAN)] GET /activities (7 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:31:24.741 [10436] DEBUG - Completed: [155.4.57.54:62171] 401 GET /activities (7 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:31:24.775 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:24.776 [7112] DEBUG - Request: [155.4.57.54:62181 (WAN)] GET /media/providers (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:24.781 [5768] DEBUG - Completed: [155.4.57.54:62181] 200 GET /media/providers (7 live) TLS GZIP 5ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:31:24.841 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:24.841 [7112] DEBUG - Request: [155.4.57.54:62187 (WAN)] GET /media/providers (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:24.844 [5768] DEBUG - Completed: [155.4.57.54:62187] 200 GET /media/providers (8 live) TLS GZIP 3ms 4106 bytes
+Nov 19, 2020 23:31:27.288 [5768] DEBUG - WebSocket: client initiated close
+Nov 19, 2020 23:31:27.289 [5768] DEBUG - NotificationStream: Removing because of close
+Nov 19, 2020 23:31:27.335 [10436] DEBUG - handleStreamRead code 1: stream truncated
+Nov 19, 2020 23:31:27.335 [10436] DEBUG - Completed after connection close: [155.4.57.54:62179] -3 GET /:/websockets/notifications (7 live) TLS GZIP 2664ms 2 bytes
+Nov 19, 2020 23:31:27.561 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:27.561 [7112] DEBUG - Request: [155.4.57.54:62181 (WAN)] GET /media/providers (6 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:27.564 [10436] DEBUG - Completed: [155.4.57.54:62181] 200 GET /media/providers (6 live) TLS GZIP 2ms 4117 bytes (pipelined: 2)
+Nov 19, 2020 23:31:28.205 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:28.205 [7112] DEBUG - Request: [155.4.57.54:62274 (WAN)] GET /media/providers (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:28.211 [5768] DEBUG - Completed: [155.4.57.54:62274] 200 GET /media/providers (8 live) TLS GZIP 6ms 4106 bytes
+Nov 19, 2020 23:31:28.212 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:28.212 [7112] DEBUG - Request: [155.4.57.54:62281 (WAN)] GET /:/websockets/notifications (8 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:28.213 [7112] DEBUG - WebSocket: Performing handshake from origin file://
+Nov 19, 2020 23:31:28.213 [7112] DEBUG - Beginning read from WebSocket
+Nov 19, 2020 23:31:28.467 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:28.467 [10436] DEBUG - Request: [155.4.57.54:62181 (WAN)] GET /activities (7 live) TLS GZIP Signed-in Token ()
+Nov 19, 2020 23:31:28.468 [5768] DEBUG - Completed: [155.4.57.54:62181] 401 GET /activities (7 live) TLS GZIP 0ms 357 bytes
+Nov 19, 2020 23:31:28.559 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:28.559 [7112] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /media/providers (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:28.561 [10436] DEBUG - Completed: [155.4.57.54:62285] 200 GET /media/providers (7 live) TLS GZIP 1ms 4117 bytes (pipelined: 1)
+Nov 19, 2020 23:31:31.829 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:31.830 [7112] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /hubs/sections/3?excludeFields=summary&count=17&includeEmpty=1&includeFeaturedTags=1&includeMeta=1&includeTypeFirst=1&includeStations=1&includeExternalMedia=1&includeExternalMetadata=1&includeRecentChannels=1&excludePlaylists=1 (7 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:31.832 [7112] DEBUG - HubCache: Adding '16838260/movie.recentlyreleased.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.recentlyreleased.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.854 [7112] DEBUG - HubCache: Computed '16838260/movie.recentlyreleased.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 22 ms.
+Nov 19, 2020 23:31:31.855 [7112] DEBUG - HubCache: 1 hubs cached, 0.0% hit ratio.
+Nov 19, 2020 23:31:31.855 [7112] DEBUG - HubCache: Adding '16838260/movie.recentlyadded.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.recentlyadded.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.866 [7112] DEBUG - HubCache: Computed '16838260/movie.recentlyadded.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 11 ms.
+Nov 19, 2020 23:31:31.866 [7112] DEBUG - HubCache: Adding '16838260/movie.inprogress.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.inprogress.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.873 [7112] DEBUG - HubCache: Computed '16838260/movie.inprogress.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 6 ms.
+Nov 19, 2020 23:31:31.873 [7112] DEBUG - HubCache: Adding '16838260/movie.genre.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.genre.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.885 [7112] DEBUG - HubCache: Computed '16838260/movie.genre.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 12 ms.
+Nov 19, 2020 23:31:31.885 [7112] DEBUG - HubCache: Adding '16838260/movie.by.actor.or.director.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.by.actor.or.director.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.976 [7112] DEBUG - It took 93.750000 ms to retrieve 30 items.
+Nov 19, 2020 23:31:31.980 [7112] DEBUG - HubCache: Computed '16838260/movie.by.actor.or.director.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 94 ms.
+Nov 19, 2020 23:31:31.980 [7112] DEBUG - HubCache: Adding '16838260/movie.topunwatched.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.topunwatched.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.988 [7112] DEBUG - HubCache: Computed '16838260/movie.topunwatched.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 8 ms.
+Nov 19, 2020 23:31:31.989 [7112] DEBUG - HubCache: Adding '16838260/movie.recentlyviewed.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.recentlyviewed.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.990 [7112] DEBUG - HubCache: Computed '16838260/movie.recentlyviewed.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 1 ms.
+Nov 19, 2020 23:31:31.990 [7112] DEBUG - HubCache: Adding '16838260/movie.quicklinks.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' to the cache (16838260/movie.quicklinks.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1).
+Nov 19, 2020 23:31:31.990 [7112] DEBUG - HubCache: Computed '16838260/movie.quicklinks.3/1/hubs/sections/3/en-GBexternal-media,indirect-media/count=17&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeExternalMedia=1&includeExternalMetadata=1&includeFeaturedTags=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTypeFirst=1' in 0 ms.
+Nov 19, 2020 23:31:31.998 [10436] DEBUG - Completed: [155.4.57.54:62285] 200 GET /hubs/sections/3?excludeFields=summary&count=17&includeEmpty=1&includeFeaturedTags=1&includeMeta=1&includeTypeFirst=1&includeStations=1&includeExternalMedia=1&includeExternalMetadata=1&includeRecentChannels=1&excludePlaylists=1 (7 live) TLS GZIP 167ms 20470 bytes (pipelined: 2)
+Nov 19, 2020 23:31:32.120 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.120 [7112] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /library/sections/3/all?sort=originallyAvailableAt:desc&originallyAvailableAt%3E=-1y&includeExternalMedia=1 (7 live) TLS Page 16-50 GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.122 [7112] DEBUG - Setting container serialization range to [16, 50] (total=-1)
+Nov 19, 2020 23:31:32.146 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.146 [1596] DEBUG - Request: [155.4.57.54:62309 (WAN)] GET /library/sections/3/all?sort=addedAt:desc&includeExternalMedia=1 (10 live) TLS Page 16-50 GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.147 [1596] DEBUG - Setting container serialization range to [16, 50] (total=-1)
+Nov 19, 2020 23:31:32.149 [7112] DEBUG - Setting container serialization range to [16, 50] (total=28)
+Nov 19, 2020 23:31:32.149 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.150 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /library/sections/3/all?unwatched=1&rating%3E=7&genre=293&includeExternalMedia=1 (10 live) TLS Page 16-50 GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.150 [1324] DEBUG - Setting container serialization range to [16, 50] (total=-1)
+Nov 19, 2020 23:31:32.152 [10436] DEBUG - Completed: [155.4.57.54:62285] 200 GET /library/sections/3/all?sort=originallyAvailableAt:desc&originallyAvailableAt%3E=-1y&includeExternalMedia=1 (10 live) TLS GZIP Page 16-50 31ms 5758 bytes (pipelined: 3)
+Nov 19, 2020 23:31:32.156 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.156 [7112] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /library/sections/3/all?unwatched=1&rating%3E=7&sort=rating:desc&includeExternalMedia=1 (10 live) TLS Page 16-50 GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.157 [7112] DEBUG - Setting container serialization range to [16, 50] (total=-1)
+Nov 19, 2020 23:31:32.179 [1324] DEBUG - It took 93.750000 ms to retrieve 35 items.
+Nov 19, 2020 23:31:32.179 [1324] DEBUG - Setting container serialization range to [16, 50] (total=57)
+Nov 19, 2020 23:31:32.183 [7112] DEBUG - Setting container serialization range to [16, 50] (total=159)
+Nov 19, 2020 23:31:32.183 [1596] DEBUG - It took 93.750000 ms to retrieve 35 items.
+Nov 19, 2020 23:31:32.184 [5768] DEBUG - Completed: [155.4.57.54:62310] 200 GET /library/sections/3/all?unwatched=1&rating%3E=7&genre=293&includeExternalMedia=1 (10 live) TLS GZIP Page 16-50 34ms 15081 bytes (pipelined: 1)
+Nov 19, 2020 23:31:32.184 [1596] DEBUG - Setting container serialization range to [16, 50] (total=329)
+Nov 19, 2020 23:31:32.187 [5768] DEBUG - Completed: [155.4.57.54:62285] 200 GET /library/sections/3/all?unwatched=1&rating%3E=7&sort=rating:desc&includeExternalMedia=1 (10 live) TLS GZIP Page 16-50 31ms 15754 bytes (pipelined: 4)
+Nov 19, 2020 23:31:32.188 [5768] DEBUG - Completed: [155.4.57.54:62309] 200 GET /library/sections/3/all?sort=addedAt:desc&includeExternalMedia=1 (10 live) TLS GZIP Page 16-50 42ms 15016 bytes (pipelined: 1)
+Nov 19, 2020 23:31:32.255 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.255 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.256 [1596] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F222%2Fthumb%2F1605734792%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (10 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.256 [7112] DEBUG - Request: [155.4.57.54:62309 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F189%2Fthumb%2F1605747959%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (10 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.256 [7112] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/189/thumb/1605747959?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.256 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.256 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.256 [1596] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/222/thumb/1605734792?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.257 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3175%2Fthumb%2F1605734923%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (10 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.257 [1324] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/3175/thumb/1605734923?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.257 [7184] DEBUG - Request: [155.4.57.54:62311 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F309%2Fthumb%2F1605734793%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (10 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.257 [7184] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/309/thumb/1605734793?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.259 [1596] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.259 [7184] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.259 [1324] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.266 [1596] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/432fa858912d77cfcfb86cad5b99bfc7b2c2da1a]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\9\30ca6441fb98030d48cf2fc7b61416dc8c5f3d9.bundle\Contents\_combined\posters\432fa858912d77cfcfb86cad5b99bfc7b2c2da1a"]
+Nov 19, 2020 23:31:32.266 [1324] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/2ba941c05b01517060f286ed55ea501978442359]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\9\2231aae74e29afab6f6471967fb821f3d9642ce.bundle\Contents\_combined\posters\2ba941c05b01517060f286ed55ea501978442359"]
+Nov 19, 2020 23:31:32.266 [1596] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.266 [1324] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.268 [1324] DEBUG - [Transcode] Photo cache obtained 323404 bytes from /library/metadata/3175/thumb/1605734923?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.268 [1324] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\3d\3d71a2fa64bd4024b765fd41399587c6b2921e9a.jpg
+Nov 19, 2020 23:31:32.270 [7112] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.272 [1596] DEBUG - [Transcode] Photo cache obtained 498770 bytes from /library/metadata/222/thumb/1605734792?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.272 [1596] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\e6\e68231d297b3772e9d9aab08774f619ad9307a5e.jpg
+Nov 19, 2020 23:31:32.272 [7184] DEBUG - [Transcode] It took 62.500000 ms to retrieve 1 items.
+Nov 19, 2020 23:31:32.274 [7184] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/b18a02c6aa2e7cd967487710359e9c9300fd8668]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\0\630dff40ae47d573f95cf99280bf8257bfc207d.bundle\Contents\_combined\posters\b18a02c6aa2e7cd967487710359e9c9300fd8668"]
+Nov 19, 2020 23:31:32.274 [7184] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.277 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.277 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.278 [7112] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/e6b258f3b1dd59399d70826a3a526a1f0291dd6c]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\1\d1050a480be4ef7bd0bbfa99cd230d9d0d1684d.bundle\Contents\_combined\posters\e6b258f3b1dd59399d70826a3a526a1f0291dd6c"]
+Nov 19, 2020 23:31:32.279 [7112] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.279 [4376] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F312%2Fthumb%2F1605747898%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.281 [7184] DEBUG - [Transcode] Photo cache obtained 1153384 bytes from /library/metadata/309/thumb/1605734793?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.281 [7184] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\5a\5acb6316f01b2fbdb77724172adb67a44ee55d15.jpg
+Nov 19, 2020 23:31:32.281 [4376] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/312/thumb/1605747898?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.283 [7112] DEBUG - [Transcode] Photo cache obtained 678848 bytes from /library/metadata/189/thumb/1605747959?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.283 [7112] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\ab\abf270cf6e30668ceb25bb7cf161299fba750fc3.jpg
+Nov 19, 2020 23:31:32.302 [2152] DEBUG - Request: [155.4.57.54:62313 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F558%2Fthumb%2F1605734806%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.302 [2152] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/558/thumb/1605734806?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.302 [4376] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.303 [2152] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.305 [2152] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/f2630b2ef863764a528563e4095b8b7a01d16848]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\c\eb4677012f1b5b91da288a97f4d80d470ca8415.bundle\Contents\_combined\posters\f2630b2ef863764a528563e4095b8b7a01d16848"]
+Nov 19, 2020 23:31:32.306 [4376] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_683eb90fe7ad3714a9a908e39011f9b73fde8f14]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\f\a9b85753f0f186578d14c908768c660a90cae21.bundle\Contents\_combined\posters\tv.plex.agents.movie_683eb90fe7ad3714a9a908e39011f9b73fde8f14"]
+Nov 19, 2020 23:31:32.306 [2152] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.306 [4376] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.310 [2152] DEBUG - [Transcode] Photo cache obtained 1013520 bytes from /library/metadata/558/thumb/1605734806?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.310 [2152] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\40\4083af927659296e0decca7c1907a3f63a9d8698.jpg
+Nov 19, 2020 23:31:32.314 [4376] DEBUG - [Transcode] Photo cache obtained 1131911 bytes from /library/metadata/312/thumb/1605747898?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.314 [4376] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\8d\8d70b733967cb36d91df6a5015111651dd4f671b.jpg
+Nov 19, 2020 23:31:32.341 [1324] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.353 [10436] DEBUG - Completed: [155.4.57.54:62310] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3175%2Fthumb%2F1605734923%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 96ms 11070 bytes (pipelined: 2)
+Nov 19, 2020 23:31:32.357 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.380 [1596] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.396 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F565%2Fthumb%2F1605734807%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.396 [1324] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/565/thumb/1605734807?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.396 [1324] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.398 [1324] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_a7e6007fd857a06f7af8dd312d0602240d32d9dd]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\d\8ed5b9f783f9aa0ef87391eeff7ade594b45963.bundle\Contents\_combined\posters\tv.plex.agents.movie_a7e6007fd857a06f7af8dd312d0602240d32d9dd"]
+Nov 19, 2020 23:31:32.398 [1324] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.400 [1324] DEBUG - [Transcode] Photo cache obtained 597543 bytes from /library/metadata/565/thumb/1605734807?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.400 [1324] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\6f\6f5fa9b98cea4bfd881ad8b94a714b94166a0c6e.jpg
+Nov 19, 2020 23:31:32.413 [4376] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.417 [2152] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.417 [10436] DEBUG - Completed: [155.4.57.54:62312] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F312%2Fthumb%2F1605747898%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 140ms 12759 bytes (pipelined: 1)
+Nov 19, 2020 23:31:32.421 [10436] DEBUG - Completed: [155.4.57.54:62313] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F558%2Fthumb%2F1605734806%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 143ms 10462 bytes (pipelined: 1)
+Nov 19, 2020 23:31:32.421 [5768] DEBUG - Completed: [155.4.57.54:62285] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F222%2Fthumb%2F1605734792%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 165ms 12711 bytes (pipelined: 5)
+Nov 19, 2020 23:31:32.421 [1324] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.421 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.421 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.423 [2152] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F564%2Fthumb%2F1605734807%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.424 [2152] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/564/thumb/1605734807?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.424 [4376] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F560%2Fthumb%2F1605734806%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.424 [2152] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.424 [4376] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/560/thumb/1605734806?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.424 [4376] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.425 [10436] DEBUG - Completed: [155.4.57.54:62310] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F565%2Fthumb%2F1605734807%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 67ms 7565 bytes (pipelined: 3)
+Nov 19, 2020 23:31:32.425 [7112] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.425 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.426 [2152] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_6274f82751fd441acbc3eb3cb3c549cc49c52781]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\2\6f0d73b643a75fe379c8cd82ab28ef6e3db286d.bundle\Contents\_combined\posters\tv.plex.agents.movie_6274f82751fd441acbc3eb3cb3c549cc49c52781"]
+Nov 19, 2020 23:31:32.426 [2152] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.426 [4376] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/d98d4ee4471f046087679befcc08371128fc059a]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\c\cfe21fee59650a977e161f91240a0d86373e20b.bundle\Contents\_combined\posters\d98d4ee4471f046087679befcc08371128fc059a"]
+Nov 19, 2020 23:31:32.426 [4376] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.426 [2152] DEBUG - [Transcode] Photo cache obtained 724963 bytes from /library/metadata/564/thumb/1605734807?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.426 [2152] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\0d\0d1f233d0a2967c52c1713dca453a551a2c6edce.jpg
+Nov 19, 2020 23:31:32.427 [4376] DEBUG - [Transcode] Photo cache obtained 224615 bytes from /library/metadata/560/thumb/1605734806?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.427 [4376] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\df\df0591ade54072187fb42aa3780363de2f1f9467.jpg
+Nov 19, 2020 23:31:32.428 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.429 [10436] DEBUG - Completed: [155.4.57.54:62309] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F189%2Fthumb%2F1605747959%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 173ms 8715 bytes (pipelined: 2)
+Nov 19, 2020 23:31:32.429 [1324] DEBUG - Request: [155.4.57.54:62313 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2693%2Fthumb%2F1605734903%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.429 [1324] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/2693/thumb/1605734903?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.430 [1324] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.431 [1596] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2484%2Fthumb%2F1605734893%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.431 [1596] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/2484/thumb/1605734893?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.432 [1324] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/fb1d239591caecbd5060383b6a12d6efe33ae0f9]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\c\909e24cb9b540bddca112d3ce21c53f4017d5cb.bundle\Contents\_combined\posters\fb1d239591caecbd5060383b6a12d6efe33ae0f9"]
+Nov 19, 2020 23:31:32.432 [1324] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.433 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.433 [1324] DEBUG - [Transcode] Photo cache obtained 273955 bytes from /library/metadata/2693/thumb/1605734903?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.433 [1324] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\67\67e986885c9cabadb13590e9b1ab211eb89c3875.jpg
+Nov 19, 2020 23:31:32.433 [1596] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.435 [1596] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/7b3950a27a7b7c2469b5bec45a4952306a0dcacb]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\5\d4bf2c3ff926d24fe66ccf8b927f9bc27eb1f72.bundle\Contents\_combined\posters\7b3950a27a7b7c2469b5bec45a4952306a0dcacb"]
+Nov 19, 2020 23:31:32.435 [1596] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.436 [1596] DEBUG - [Transcode] Photo cache obtained 97713 bytes from /library/metadata/2484/thumb/1605734893?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.436 [1596] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\62\62a61955ce13962e9cd2a56db08a95b66acdfad0.jpg
+Nov 19, 2020 23:31:32.443 [7112] DEBUG - Request: [155.4.57.54:62309 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2492%2Fthumb%2F1605734893%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.443 [7112] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/2492/thumb/1605734893?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.444 [7112] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.446 [7112] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/58e5f0b1d7dcf2d4cc47cb8070117b355d3a46ed]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\4\c06a3ad38d71c3af013ba61c65ac234b7f1468e.bundle\Contents\_combined\posters\58e5f0b1d7dcf2d4cc47cb8070117b355d3a46ed"]
+Nov 19, 2020 23:31:32.446 [7112] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.448 [7112] DEBUG - [Transcode] Photo cache obtained 281416 bytes from /library/metadata/2492/thumb/1605734893?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.448 [7112] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\a8\a82b158aa0159f5bad672b805b3b348b0e161bf9.jpg
+Nov 19, 2020 23:31:32.452 [1596] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.455 [5768] DEBUG - Completed: [155.4.57.54:62310] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2484%2Fthumb%2F1605734893%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 26ms 7439 bytes (pipelined: 4)
+Nov 19, 2020 23:31:32.455 [7184] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.458 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.459 [1596] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2552%2Fthumb%2F1605734895%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.459 [1596] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/2552/thumb/1605734895?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.459 [1596] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.459 [10436] DEBUG - Completed: [155.4.57.54:62311] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F309%2Fthumb%2F1605734793%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 202ms 10837 bytes (pipelined: 1)
+Nov 19, 2020 23:31:32.461 [1596] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/9057f28c196e1e430f73026434217d2e31a3a8e3]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\9\c14766e3d67e70631c4ccd783287177066928ab.bundle\Contents\_combined\posters\9057f28c196e1e430f73026434217d2e31a3a8e3"]
+Nov 19, 2020 23:31:32.461 [1596] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.462 [1596] DEBUG - [Transcode] Photo cache obtained 188446 bytes from /library/metadata/2552/thumb/1605734895?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.462 [1596] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\f2\f2a335eb7e0bc552cbf3d020c66f1b5514164bfc.jpg
+Nov 19, 2020 23:31:32.463 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.463 [7184] DEBUG - Request: [155.4.57.54:62311 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3689%2Fthumb%2F1605734941%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.463 [7184] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/3689/thumb/1605734941?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.463 [7184] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.465 [1324] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.465 [7184] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_0e3a450b522e0b71bd9ea029ff707c27003704a1]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\1\8f2921fc465416f62c1dda381c79958e31618b2.bundle\Contents\_combined\posters\tv.plex.agents.movie_0e3a450b522e0b71bd9ea029ff707c27003704a1"]
+Nov 19, 2020 23:31:32.466 [7184] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.466 [7184] DEBUG - [Transcode] Photo cache obtained 168220 bytes from /library/metadata/3689/thumb/1605734941?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.466 [7184] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\a4\a4350ac1d06a6b86f3dcf329c280cefece35e7c5.jpg
+Nov 19, 2020 23:31:32.468 [5768] DEBUG - Completed: [155.4.57.54:62313] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2693%2Fthumb%2F1605734903%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 42ms 10977 bytes (pipelined: 2)
+Nov 19, 2020 23:31:32.472 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.472 [2152] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.476 [4376] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.476 [10436] DEBUG - Completed: [155.4.57.54:62312] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F564%2Fthumb%2F1605734807%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 55ms 10337 bytes (pipelined: 2)
+Nov 19, 2020 23:31:32.476 [1324] DEBUG - Request: [155.4.57.54:62313 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F4017%2Fthumb%2F1605734963%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.477 [1324] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/4017/thumb/1605734963?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.477 [1324] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.479 [1324] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_eb8ef91d571462dc3ca3458d21ad9b9e890dcef4]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\c\75b0a567a8db64dd16c92bb0540557c65486dbf.bundle\Contents\_combined\posters\tv.plex.agents.movie_eb8ef91d571462dc3ca3458d21ad9b9e890dcef4"]
+Nov 19, 2020 23:31:32.479 [1324] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.479 [7184] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.480 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.481 [7112] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.483 [1324] DEBUG - [Transcode] Photo cache obtained 1163512 bytes from /library/metadata/4017/thumb/1605734963?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.483 [1324] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\84\84a271996db1be24b534797f0289b88e334f9758.jpg
+Nov 19, 2020 23:31:32.484 [5768] DEBUG - Completed: [155.4.57.54:62285] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F560%2Fthumb%2F1605734806%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 62ms 8797 bytes (pipelined: 6)
+Nov 19, 2020 23:31:32.484 [2152] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F1340%2Fthumb%2F1605734840%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.485 [2152] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/1340/thumb/1605734840?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.485 [5768] DEBUG - Completed: [155.4.57.54:62309] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2492%2Fthumb%2F1605734893%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 51ms 10516 bytes (pipelined: 3)
+Nov 19, 2020 23:31:32.485 [5768] DEBUG - Completed: [155.4.57.54:62311] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3689%2Fthumb%2F1605734941%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 22ms 9081 bytes (pipelined: 2)
+Nov 19, 2020 23:31:32.485 [2152] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.487 [2152] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/228a08ea8dd632addfef6cae90d1272acfe696a2]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\3\797ee3dc75cae0adaa76fd2305d0c499bc873cb.bundle\Contents\_combined\posters\228a08ea8dd632addfef6cae90d1272acfe696a2"]
+Nov 19, 2020 23:31:32.487 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.487 [2152] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.487 [7184] DEBUG - Request: [155.4.57.54:62285 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3923%2Fthumb%2F1605734958%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.487 [7184] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/3923/thumb/1605734958?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.488 [7184] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.489 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.489 [7112] DEBUG - Request: [155.4.57.54:62309 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3895%2Fthumb%2F1605734953%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.489 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.489 [7112] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/3895/thumb/1605734953?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.489 [4376] DEBUG - Request: [155.4.57.54:62311 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F1636%2Fthumb%2F1605734852%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.489 [4376] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/1636/thumb/1605734852?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.490 [4376] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.490 [2152] DEBUG - [Transcode] Photo cache obtained 994094 bytes from /library/metadata/1340/thumb/1605734840?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.490 [2152] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\ca\ca276efff955dc0ccef54fd391b5b17325d8dc42.jpg
+Nov 19, 2020 23:31:32.490 [7184] DEBUG - [Transcode] It took 62.500000 ms to retrieve 1 items.
+Nov 19, 2020 23:31:32.490 [7112] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.491 [7184] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_4243898e372168a59d9207eb03820e072165fa2f]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\f\56e5dbcb15fb0d0de191e6a98623cb52ed85139.bundle\Contents\_combined\posters\tv.plex.agents.movie_4243898e372168a59d9207eb03820e072165fa2f"]
+Nov 19, 2020 23:31:32.491 [7184] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.492 [7112] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_f6bc5081a0e19aabe5b10ff85130e44510ce857e]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\b\9d07c7ce648b0de83c82567ac1da0fe24f8635f.bundle\Contents\_combined\posters\tv.plex.agents.movie_f6bc5081a0e19aabe5b10ff85130e44510ce857e"]
+Nov 19, 2020 23:31:32.492 [7112] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.493 [7112] DEBUG - [Transcode] Photo cache obtained 808238 bytes from /library/metadata/3895/thumb/1605734953?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.493 [7112] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\91\9103e83c4f9a82a64fab23e7213fe14ab015c1e2.jpg
+Nov 19, 2020 23:31:32.494 [7184] DEBUG - [Transcode] Photo cache obtained 882399 bytes from /library/metadata/3923/thumb/1605734958?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.494 [7184] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\af\af25668ea5ef0bc31236270339e698bafede6156.jpg
+Nov 19, 2020 23:31:32.514 [1324] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.517 [7112] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.518 [4376] DEBUG - [Transcode] It took 62.500000 ms to retrieve 1 items.
+Nov 19, 2020 23:31:32.518 [4376] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_f9e665824c6f0b496c7127ed0de20d617a34301f]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\2\a3ac7f7bfc86de445f105aba1d84cb580662b21.bundle\Contents\_combined\posters\tv.plex.agents.movie_f9e665824c6f0b496c7127ed0de20d617a34301f"]
+Nov 19, 2020 23:31:32.518 [4376] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.520 [4376] DEBUG - [Transcode] Photo cache obtained 220396 bytes from /library/metadata/1636/thumb/1605734852?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.520 [4376] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\2f\2ffafefb501b70f30beb44a025e014b078f8673b.jpg
+Nov 19, 2020 23:31:32.521 [10436] DEBUG - Completed: [155.4.57.54:62313] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F4017%2Fthumb%2F1605734963%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 49ms 10134 bytes (pipelined: 3)
+Nov 19, 2020 23:31:32.522 [10436] DEBUG - Completed: [155.4.57.54:62309] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3895%2Fthumb%2F1605734953%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 32ms 11513 bytes (pipelined: 4)
+Nov 19, 2020 23:31:32.522 [1596] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.525 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.526 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.526 [5768] DEBUG - Completed: [155.4.57.54:62310] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F2552%2Fthumb%2F1605734895%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 67ms 5757 bytes (pipelined: 5)
+Nov 19, 2020 23:31:32.527 [7112] DEBUG - Request: [155.4.57.54:62313 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F1804%2Fthumb%2F1605734861%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.527 [7112] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/1804/thumb/1605734861?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.527 [7112] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.529 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.529 [7112] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/66619018713ae6f6e9cf3bbfaea5b7f072cd8220]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\6\f58404ccc47c5080bef8a3ac3d5d05ecbcb8f47.bundle\Contents\_combined\posters\66619018713ae6f6e9cf3bbfaea5b7f072cd8220"]
+Nov 19, 2020 23:31:32.530 [7112] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.531 [7112] DEBUG - [Transcode] Photo cache obtained 281770 bytes from /library/metadata/1804/thumb/1605734861?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.531 [7112] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\f6\f6cb9268f9895be7d491a9ca6ac9a85aca651fcc.jpg
+Nov 19, 2020 23:31:32.536 [1596] DEBUG - Request: [155.4.57.54:62309 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3095%2Fthumb%2F1605734921%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.536 [1596] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/3095/thumb/1605734921?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.537 [1596] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.537 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3780%2Fthumb%2F1605747852%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:32.537 [1324] DEBUG - [Transcode] Photo transcoder: Request for url [/library/metadata/3780/thumb/1605747852?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1] (is local: 1 upscaled: 1)
+Nov 19, 2020 23:31:32.538 [1324] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:32.538 [1596] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/tv.plex.agents.movie_3fa79daf1c71ed56a6f17887d61c5bd2a5958d4c]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\3\eea113c254ef629ead2d3f193a26aea1a38d49e.bundle\Contents\_combined\posters\tv.plex.agents.movie_3fa79daf1c71ed56a6f17887d61c5bd2a5958d4c"]
+Nov 19, 2020 23:31:32.539 [1596] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.540 [1324] DEBUG - [Transcode] Calculated media file path for path [metadata://posters/95d9d92b0aadf32be051b8481143bbe39ad58caa]: ["C:\Users\Server\AppData\Local\Plex Media Server\Metadata\Movies\3\379511e82c099315023546083eb0212405412a8.bundle\Contents\_combined\posters\95d9d92b0aadf32be051b8481143bbe39ad58caa"]
+Nov 19, 2020 23:31:32.540 [1324] DEBUG - [Transcode] Calling back into ourselves for photo to transcode, optimizing the process (status: -1)
+Nov 19, 2020 23:31:32.541 [1596] DEBUG - [Transcode] Photo cache obtained 797102 bytes from /library/metadata/3095/thumb/1605734921?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.541 [1596] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\db\db9f8ad90c4c10ccca88847b9be5bf23c159f573.jpg
+Nov 19, 2020 23:31:32.546 [1324] DEBUG - [Transcode] Photo cache obtained 1506860 bytes from /library/metadata/3780/thumb/1605747852?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&X-Plex-Account-ID=1
+Nov 19, 2020 23:31:32.546 [1324] DEBUG - [Transcode] Saving original media file to C:\Users\Server\AppData\Local\Plex Media Server\Cache\PhotoTranscoder\c3\c34d64ce9fc5c0262696bdda49f4b5eff4a4984d.jpg
+Nov 19, 2020 23:31:32.547 [4376] DEBUG - [Transcode] Created thumbnail of size 142x211, has pixels: 1
+Nov 19, 2020 23:31:32.551 [10436] DEBUG - Completed: [155.4.57.54:62311] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F1636%2Fthumb%2F1605734852%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 61ms 8663 bytes (pipelined: 3)
+Nov 19, 2020 23:31:32.560 [7112] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.564 [10436] DEBUG - Completed: [155.4.57.54:62313] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F1804%2Fthumb%2F1605734861%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 38ms 10801 bytes (pipelined: 4)
+Nov 19, 2020 23:31:32.579 [1596] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.583 [10436] DEBUG - Completed: [155.4.57.54:62309] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3095%2Fthumb%2F1605734921%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 57ms 10051 bytes (pipelined: 5)
+Nov 19, 2020 23:31:32.586 [7184] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.590 [2152] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.590 [10436] DEBUG - Completed: [155.4.57.54:62285] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3923%2Fthumb%2F1605734958%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 102ms 10571 bytes (pipelined: 7)
+Nov 19, 2020 23:31:32.593 [10436] DEBUG - Completed: [155.4.57.54:62312] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F1340%2Fthumb%2F1605734840%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 113ms 9502 bytes (pipelined: 3)
+Nov 19, 2020 23:31:32.660 [1324] DEBUG - [Transcode] Created thumbnail of size 141x211, has pixels: 1
+Nov 19, 2020 23:31:32.664 [10436] DEBUG - Completed: [155.4.57.54:62310] 200 GET /photo/:/transcode?width=140&height=211&minSize=1&upscale=1&url=%2Flibrary%2Fmetadata%2F3780%2Fthumb%2F1605747852%3FX-Plex-Token%3Dxxxxxxxxxxxxxxxxxxxx%26X-Plex-Account-ID%3D1 (12 live) TLS GZIP 135ms 13188 bytes (pipelined: 6)
+Nov 19, 2020 23:31:35.258 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.259 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] POST /playQueues?type=video&extrasPrefixCount=0&uri=server%3A%2F%2F5cae4ae5ff2b058782e5a92da7f16175940bb5ad%2Fcom.plexapp.plugins.library%2Flibrary%2Fmetadata%2F500&repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:35.260 [1324] DEBUG - PlayQueue: Converted 'server://5cae4ae5ff2b058782e5a92da7f16175940bb5ad/com.plexapp.plugins.library/library/metadata/500' to 'library://x/item/%2Flibrary%2Fmetadata%2F500'
+Nov 19, 2020 23:31:35.261 [1324] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Nov 19, 2020 23:31:35.267 [1324] DEBUG - PlayQueue: Start index: 0 End index: 0 Count: 1
+Nov 19, 2020 23:31:35.267 [1324] DEBUG - PlayQueue: 1 generated IDs compressed down to a 24 byte blob.
+Nov 19, 2020 23:31:35.268 [1324] DEBUG - PlayQueue: Added 1 items in 0.0 sec.
+Nov 19, 2020 23:31:35.294 [1324] DEBUG - Extras: Looking for extras for item plex://movie/5f590e23449ca9003fd2a392 with unwatched: 1 fromLibrary: 1 fromTheater: 0 fromBluray: 0 and preroll count: 0.
+Nov 19, 2020 23:31:35.294 [1324] DEBUG - Extras: Using allowable content ratings: , NC-17, NR, PG-13, R.
+Nov 19, 2020 23:31:35.294 [1324] DEBUG - Extras: Using genres: Comedy, Action/Adventure.
+Nov 19, 2020 23:31:35.295 [1324] DEBUG - Extras: Found 0 extras from library.
+Nov 19, 2020 23:31:35.299 [1324] DEBUG - We're going to try to auto-select an audio stream for account 16838260.
+Nov 19, 2020 23:31:35.299 [1324] DEBUG - Selecting best audio stream for part ID 1320 (autoselect: 1 language: en)
+Nov 19, 2020 23:31:35.299 [1324] DEBUG - We're going to try to auto-select a subtitle.
+Nov 19, 2020 23:31:35.299 [1324] DEBUG - Audio Stream: 2863, Subtitle Stream: -1
+Nov 19, 2020 23:31:35.300 [5768] DEBUG - Completed: [155.4.57.54:62310] 200 POST /playQueues?type=video&extrasPrefixCount=0&uri=server%3A%2F%2F5cae4ae5ff2b058782e5a92da7f16175940bb5ad%2Fcom.plexapp.plugins.library%2Flibrary%2Fmetadata%2F500&repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (12 live) TLS GZIP 41ms 2671 bytes (pipelined: 7)
+Nov 19, 2020 23:31:35.401 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.402 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /library/metadata/500?includeExternalMedia=1&Accept-Language=en-GB&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&checkFiles=1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:35.431 [1324] DEBUG - We're going to try to auto-select an audio stream for account 16838260.
+Nov 19, 2020 23:31:35.431 [1324] DEBUG - Selecting best audio stream for part ID 1320 (autoselect: 1 language: en)
+Nov 19, 2020 23:31:35.431 [1324] DEBUG - We're going to try to auto-select a subtitle.
+Nov 19, 2020 23:31:35.431 [1324] DEBUG - Audio Stream: 2863, Subtitle Stream: -1
+Nov 19, 2020 23:31:35.441 [10436] DEBUG - Completed: [155.4.57.54:62310] 200 GET /library/metadata/500?includeExternalMedia=1&Accept-Language=en-GB&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&checkFiles=1 (12 live) TLS GZIP 39ms 3147 bytes (pipelined: 8)
+Nov 19, 2020 23:31:35.493 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.494 [1324] DEBUG - Request: [155.4.57.54:62310 (WAN)] GET /video/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F500&mediaIndex=0&partIndex=0&protocol=http&fastSeek=1&directPlay=0&directStream=1&subtitleSize=100&audioBoost=100&location=wan&maxVideoBitrate=2000&addDebugOverlay=0&autoAdjustQuality=0&directStreamAudio=1&advancedSubtitles=text&session=4vfm2yd3ozicp1i4p4g28z0k&offset=0&subtitles=auto&copyts=1&Accept-Language=en-GB (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:35.494 [1324] DEBUG - [Transcode] Found session GUID of 4vfm2yd3ozicp1i4p4g28z0k in session start.
+Nov 19, 2020 23:31:35.495 [1324] DEBUG - [Transcode] TranscodeUniversalRequest: using profile Plex Desktop
+Nov 19, 2020 23:31:35.495 [1324] DEBUG - [Transcode] Downloading document http://127.0.0.1:32400/library/metadata/500?includeBandwidths=1&offset=0&X-Plex-Incomplete-Segments=1&X-Plex-Session-Identifier=wize58n97r8kb9p6j902wls3
+Nov 19, 2020 23:31:35.495 [1324] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.504 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.508 [1596] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=0&playQueueItemID=306&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=0&duration=5764000 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:35.510 [1596] DEBUG - Client [wize58n97r8kb9p6j902wls3] reporting timeline state playing, progress of 0/5764000ms for guid=, playbackTime=0ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:31:35.512 [1324] DEBUG - [Transcode] We're going to try to auto-select an audio stream for account 16838260.
+Nov 19, 2020 23:31:35.512 [1324] DEBUG - [Transcode] Selecting best audio stream for part ID 1320 (autoselect: 1 language: en)
+Nov 19, 2020 23:31:35.512 [1324] DEBUG - [Transcode] We're going to try to auto-select a subtitle.
+Nov 19, 2020 23:31:35.512 [1324] DEBUG - [Transcode] Audio Stream: 2863, Subtitle Stream: -1
+Nov 19, 2020 23:31:35.516 [1324] DEBUG - [Transcode] MDE: Selected protocol http; container: mkv
+Nov 19, 2020 23:31:35.516 [1324] DEBUG - [Transcode] MDE: analyzing media item 1320
+Nov 19, 2020 23:31:35.516 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): Direct Play is disabled
+Nov 19, 2020 23:31:35.516 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): no direct play video profile exists for http/mkv/h264
+Nov 19, 2020 23:31:35.516 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): no direct play video profile exists for http/mkv/h264/ac3
+Nov 19, 2020 23:31:35.517 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): selected media 0 / 1320
+Nov 19, 2020 23:31:35.518 [1324] DEBUG - [Transcode] Streaming Resource: Calculated bandwidth of 5431kbps exceeds bandwidth limit. Changing decision parameters provided by client to fit bandwidth limit of 2000kbps
+Nov 19, 2020 23:31:35.518 [1324] DEBUG - [Transcode] Streaming Resource: Determining preferred transcode encoders through transcode only decision.
+Nov 19, 2020 23:31:35.519 [1324] DEBUG - [Transcode] Scaled up video bitrate to 3303Kbps based on 1.500000x fudge factor.
+Nov 19, 2020 23:31:35.521 [1324] DEBUG - [Transcode] Scaled up video bitrate to 3303Kbps based on 1.500000x fudge factor.
+Nov 19, 2020 23:31:35.522 [1324] DEBUG - [Transcode] Streaming Resource: Reducing playback quality for 1904kbps stream bitrate: video resolution to 720x406, audio channels to 2, quality to 41, disable video DS as 2147483647kbps is > the 1724kbps available, disable audio DS as 2147483647kbps is > the 162kbps available
+Nov 19, 2020 23:31:35.523 [1324] DEBUG - [Transcode] Scaled up video bitrate to 3303Kbps based on 1.500000x fudge factor.
+Nov 19, 2020 23:31:35.523 [1324] DEBUG - [Transcode] Scaled maximum bitrate for resolution reduction to 465Kbps.
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Selected protocol http; container: mkv
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: analyzing media item 1320
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): Direct Play is disabled
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): no direct play video profile exists for http/mkv/h264
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): no direct play video profile exists for http/mkv/h264/ac3
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] Borat Subsequent Moviefilm - video.width limitation applies: 1920 > 720
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] Borat Subsequent Moviefilm - audio.channels limitation applies: 6 > 2
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): Direct Streaming is disabled, so video stream will be transcoded
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): no remuxable profile found, so video stream will be transcoded
+Nov 19, 2020 23:31:35.524 [1324] DEBUG - [Transcode] MDE: Cannot direct stream video stream due to profile or setting limitations
+Nov 19, 2020 23:31:35.525 [1324] DEBUG - [Transcode] Scaled up video bitrate to 3303Kbps based on 1.500000x fudge factor.
+Nov 19, 2020 23:31:35.525 [1324] DEBUG - [Transcode] Scaled maximum bitrate for resolution reduction to 465Kbps.
+Nov 19, 2020 23:31:35.525 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): Audio Direct Streaming is disabled, so video's audio stream will be transcoded
+Nov 19, 2020 23:31:35.526 [1324] DEBUG - [Transcode] MDE: Cannot direct stream audio stream due to profile or setting limitations
+Nov 19, 2020 23:31:35.526 [1324] DEBUG - [Transcode] MDE: Borat Subsequent Moviefilm (2020): selected media 0 / 1320
+Nov 19, 2020 23:31:35.527 [1324] DEBUG - [Transcode] Streaming Resource: Adding session 0x822e2d0:wize58n97r8kb9p6j902wls3 which is using 659kbps of WAN bandwidth.  Used is now 659kbps
+Nov 19, 2020 23:31:35.527 [1324] DEBUG - [Transcode] Streaming Resource: Adding session 0x822e2d0:wize58n97r8kb9p6j902wls3 which is using transcoder slot.  Used slots is now 1
+Nov 19, 2020 23:31:35.527 [1324] DEBUG - [Transcode] Streaming Resource: Added session 0x822e2d0:wize58n97r8kb9p6j902wls3
+Nov 19, 2020 23:31:35.528 [1324] DEBUG - [Transcode] Streaming Resource: Reached Decision id=500 codes=(General=1001,Direct play not available; Conversion OK. Direct Play=3000,App cannot direct play this item. Direct play is disabled. Transcode=1001,Direct play not available; Conversion OK.) media=(id=1320 part=(id=1320 decision=transcode container=mkv protocol=http streams=(Video=(id=2862 decision=transcode bitrate=465 encoder=libx264 width=720 height=406) Audio=(id=2863 decision=transcode bitrate=162 encoder=libopus channels=2 rate=48000))))
+Nov 19, 2020 23:31:35.531 [10436] DEBUG - Completed: [155.4.57.54:62310] 200 GET /video/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F500&mediaIndex=0&partIndex=0&protocol=http&fastSeek=1&directPlay=0&directStream=1&subtitleSize=100&audioBoost=100&location=wan&maxVideoBitrate=2000&addDebugOverlay=0&autoAdjustQuality=0&directStreamAudio=1&advancedSubtitles=text&session=4vfm2yd3ozicp1i4p4g28z0k&offset=0&subtitles=auto&copyts=1&Accept-Language=en-GB (12 live) TLS GZIP 37ms 2303 bytes (pipelined: 9)
+Nov 19, 2020 23:31:35.557 [1596] DEBUG - We're going to try to auto-select an audio stream for account 16838260.
+Nov 19, 2020 23:31:35.557 [1596] DEBUG - Selecting best audio stream for part ID 1320 (autoselect: 1 language: en)
+Nov 19, 2020 23:31:35.557 [1596] DEBUG - We're going to try to auto-select a subtitle.
+Nov 19, 2020 23:31:35.557 [1596] DEBUG - Audio Stream: 2863, Subtitle Stream: -1
+Nov 19, 2020 23:31:35.558 [1596] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:31:35.558 [1596] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:31:35.558 [1596] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:31:35.558 [1596] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:31:35.559 [1596] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:31:35.566 [10436] DEBUG - Completed: [155.4.57.54:62312] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=0&playQueueItemID=306&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=0&duration=5764000 (12 live) TLS GZIP 57ms 457 bytes (pipelined: 4)
+Nov 19, 2020 23:31:35.573 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.573 [1596] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /playQueues/30?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (12 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:35.574 [1596] DEBUG - PlayQueue: total generated: 1, before cursor: 0, after cursor: 0
+Nov 19, 2020 23:31:35.574 [1596] DEBUG - PlayQueue: No need to refresh, active window is operational.
+Nov 19, 2020 23:31:35.577 [1596] DEBUG - PlayQueue: Client pwuue0s9et9uearhae84jcjj requested ownership of play queue 30, but already had it.
+Nov 19, 2020 23:31:35.579 [1596] DEBUG - We're going to try to auto-select an audio stream for account 16838260.
+Nov 19, 2020 23:31:35.579 [1596] DEBUG - Selecting best audio stream for part ID 1320 (autoselect: 1 language: en)
+Nov 19, 2020 23:31:35.579 [1596] DEBUG - We're going to try to auto-select a subtitle.
+Nov 19, 2020 23:31:35.579 [1596] DEBUG - Audio Stream: 2863, Subtitle Stream: -1
+Nov 19, 2020 23:31:35.580 [5768] DEBUG - Completed: [155.4.57.54:62312] 200 GET /playQueues/30?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (12 live) TLS GZIP 6ms 2592 bytes (pipelined: 5)
+Nov 19, 2020 23:31:35.736 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.736 [7184] DEBUG - Request: [155.4.57.54:62317 (WAN)] GET /video/:/transcode/universal/start?hasMDE=1&path=%2Flibrary%2Fmetadata%2F500&mediaIndex=0&partIndex=0&protocol=http&fastSeek=1&directPlay=0&directStream=1&subtitleSize=100&audioBoost=100&location=wan&maxVideoBitrate=2000&addDebugOverlay=0&autoAdjustQuality=0&directStreamAudio=1&advancedSubtitles=text&session=4vfm2yd3ozicp1i4p4g28z0k&offset=0&subtitles=auto&copyts=1&Accept-Language=en-GB (13 live) TLS Signed-in Token (Semir.Hodzic) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.736 [7184] DEBUG - [Transcode] Found session GUID of 4vfm2yd3ozicp1i4p4g28z0k in session start.
+Nov 19, 2020 23:31:35.737 [7184] DEBUG - [Transcode] TranscodeUniversalRequest: using profile Plex Desktop
+Nov 19, 2020 23:31:35.737 [7184] DEBUG - [Transcode] Downloading document http://127.0.0.1:32400/library/metadata/500?checkFiles=1&includeBandwidths=1&offset=0&X-Plex-Incomplete-Segments=1&X-Plex-Session-Identifier=wize58n97r8kb9p6j902wls3
+Nov 19, 2020 23:31:35.738 [7184] DEBUG - [Transcode] Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:35.761 [7184] DEBUG - [Transcode] We're going to try to auto-select an audio stream for account 16838260.
+Nov 19, 2020 23:31:35.761 [7184] DEBUG - [Transcode] Selecting best audio stream for part ID 1320 (autoselect: 1 language: en)
+Nov 19, 2020 23:31:35.761 [7184] DEBUG - [Transcode] We're going to try to auto-select a subtitle.
+Nov 19, 2020 23:31:35.761 [7184] DEBUG - [Transcode] Audio Stream: 2863, Subtitle Stream: -1
+Nov 19, 2020 23:31:35.764 [7184] DEBUG - [Transcode] Cleaning directory for session 4vfm2yd3ozicp1i4p4g28z0k ()
+Nov 19, 2020 23:31:35.765 [7184] DEBUG - [Transcode] Starting a transcode session 4vfm2yd3ozicp1i4p4g28z0k at offset -1.0 (state=3)
+Nov 19, 2020 23:31:35.770 [7184] DEBUG - [Transcode] [Universal] Using local file path instead of URL: Z:\Media\Movies\Borat Subsequent Moviefilm (2020)\Borat.Subsequent.Moviefilm.2020.WEBDL-1080p.mkv
+Nov 19, 2020 23:31:35.774 [7184] DEBUG - [Transcode] Job running: EAE_ROOT='\\?\C:\Users\Server\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\EasyAudioEncoder' FFMPEG_EXTERNAL_LIBS='\\\\?\\C\:\\Users\\Server\\AppData\\Local\\Plex\ Media\ Server\\Codecs\\02cff92-3554-windows-x86\\' X_PLEX_TOKEN='xxxxxxxxxxxxxxxxxxxx' C:\Program Files (x86)\Plex\Plex Media Server\Plex Transcoder.exe -codec:0 h264 -codec:1 ac3 -analyzeduration 20000000 -probesize 20000000 -i "Z:\Media\Movies\Borat Subsequent Moviefilm (2020)\Borat.Subsequent.Moviefilm.2020.WEBDL-1080p.mkv" -filter_complex [0:0]scale=w=720:h=406[0];[0]format=pix_fmts=yuv420p|nv12[1] -filter_complex "[0:1] aresample=async=1:ocl='stereo':rematrix_maxval=0.000000dB:osr=48000[2]" -map [1] -codec:0 libx264 -crf:0 21 -maxrate:0 465k -bufsize:0 930k -r:0 23.975999999999999 -preset:0 veryfast -x264opts:0 subme=2:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -map [2] -codec:1 libopus -b:1 162k -f segment -segment_format matroska -segment_format_options live=1 -segment_time 1 -segment_header_filename header -segment_start_number 0 -segment_list http://127.0.0.1:32400/video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/seglist?X-Plex-Http-Pipeline=infinite -segment_list_type csv -segment_list_unfinished 1 -segment_list_size 5 -segment_list_separate_stream_times 1 -avoid_negative_ts disabled -map_metadata:g -1 -map_metadata:c -1 -map_chapters -1 chunk-%05d -start_at_zero -copyts -y -nostats -loglevel quiet -loglevel_plex error -progressurl http://127.0.0.1:32400/video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress 
+Nov 19, 2020 23:31:35.780 [7184] DEBUG - [Transcode] Jobs: Starting child process with pid 5488
+Nov 19, 2020 23:31:35.827 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=startup (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.827 [5768] DEBUG - Completed: [127.0.0.1:60236] 204 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=startup (14 live) 0ms 203 bytes (pipelined: 1) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.855 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=startup (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.856 [5768] DEBUG - Completed: [127.0.0.1:60236] 204 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=startup (14 live) 0ms 203 bytes (pipelined: 2) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.856 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=opening (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.856 [10436] DEBUG - Completed: [127.0.0.1:60236] 204 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=opening (14 live) 0ms 203 bytes (pipelined: 3) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.884 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=opened (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.884 [10436] DEBUG - Completed: [127.0.0.1:60236] 204 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?status=opened (14 live) 0ms 203 bytes (pipelined: 4) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.884 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/stream?index=0&id=0&codec=h264&type=video (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.884 [5768] DEBUG - Completed: [127.0.0.1:60236] 200 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/stream?index=0&id=0&codec=h264&type=video (14 live) 0ms 195 bytes (pipelined: 5) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.884 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/stream?index=1&id=0&codec=ac3&type=audio (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.884 [10436] DEBUG - Completed: [127.0.0.1:60236] 200 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/stream?index=1&id=0&codec=ac3&type=audio (14 live) 0ms 195 bytes (pipelined: 6) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.922 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/streamDetail?index=0&id=0&codec=h264&type=video&profile=High&width=1920&height=1080&interlaced=0&sar=1:1&level=40&frameRate=23.976&disp_default=1 (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.922 [10436] DEBUG - Completed: [127.0.0.1:60236] 200 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/streamDetail?index=0&id=0&codec=h264&type=video&profile=High&width=1920&height=1080&interlaced=0&sar=1:1&level=40&frameRate=23.976&disp_default=1 (14 live) 0ms 195 bytes (pipelined: 7) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.922 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/streamDetail?index=1&id=0&codec=ac3&type=audio&bitrate=384000&channels=6&layout=5.1%28side%29&sampleRate=48000&disp_default=1 (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.922 [5768] DEBUG - Completed: [127.0.0.1:60236] 200 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress/streamDetail?index=1&id=0&codec=ac3&type=audio&bitrate=384000&channels=6&layout=5.1%28side%29&sampleRate=48000&disp_default=1 (14 live) 0ms 195 bytes (pipelined: 8) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.923 [2152] DEBUG - Request: [127.0.0.1:60236 (Loopback)] PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?duration=5764.672000 (14 live) Signed-in Token (omaralhamad93@gmail.com) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.924 [7184] DEBUG - [Transcode] Started session successfully: 4vfm2yd3ozicp1i4p4g28z0k
+Nov 19, 2020 23:31:35.924 [5768] DEBUG - Completed: [127.0.0.1:60236] 204 PUT /video/:/transcode/session/4vfm2yd3ozicp1i4p4g28z0k/cd2a33f3-eeb9-49bb-9978-0a01079bfc9a/progress?duration=5764.672000 (14 live) 0ms 203 bytes (pipelined: 9) (range: bytes=0-) 
+Nov 19, 2020 23:31:35.924 [7184] DEBUG - Content-Length is -1 (of total: -1).
+Nov 19, 2020 23:31:35.924 [11772] DEBUG - [TranscodeOutputStream] Input processing thread started at offset 0 for -1 bytes.
+Nov 19, 2020 23:31:36.017 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 0 (-1)
+Nov 19, 2020 23:31:36.018 [11772] DEBUG - [TranscodeOutputStream] Input processed first bytes after 93 ms.
+Nov 19, 2020 23:31:36.028 [5768] DEBUG - [TranscodeOutputStream] Sent back first bytes after 104 ms.
+Nov 19, 2020 23:31:36.142 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 0 (0)
+Nov 19, 2020 23:31:36.148 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 1 (0)
+Nov 19, 2020 23:31:36.299 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 1 (1)
+Nov 19, 2020 23:31:36.305 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 2 (1)
+Nov 19, 2020 23:31:36.427 [7184] DEBUG - [Transcode] Transcoder: session 4vfm2yd3ozicp1i4p4g28z0k indicated fallback to software decoding
+Nov 19, 2020 23:31:36.440 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 2 (2)
+Nov 19, 2020 23:31:36.446 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 3 (2)
+Nov 19, 2020 23:31:36.712 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 3 (3)
+Nov 19, 2020 23:31:36.721 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 4 (3)
+Nov 19, 2020 23:31:36.970 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 4 (4)
+Nov 19, 2020 23:31:36.981 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 5 (4)
+Nov 19, 2020 23:31:37.203 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 5 (5)
+Nov 19, 2020 23:31:37.209 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 6 (5)
+Nov 19, 2020 23:31:38.007 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 6 (6)
+Nov 19, 2020 23:31:38.013 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 7 (6)
+Nov 19, 2020 23:31:38.779 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 7 (7)
+Nov 19, 2020 23:31:38.784 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 8 (7)
+Nov 19, 2020 23:31:39.418 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 8 (8)
+Nov 19, 2020 23:31:39.423 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 9 (8)
+Nov 19, 2020 23:31:40.352 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 9 (9)
+Nov 19, 2020 23:31:40.357 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 10 (9)
+Nov 19, 2020 23:31:40.679 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 10 (10)
+Nov 19, 2020 23:31:40.684 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 11 (10)
+Nov 19, 2020 23:31:40.941 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 11 (11)
+Nov 19, 2020 23:31:40.947 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 12 (11)
+Nov 19, 2020 23:31:41.223 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 12 (12)
+Nov 19, 2020 23:31:41.229 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 13 (12)
+Nov 19, 2020 23:31:41.515 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 13 (13)
+Nov 19, 2020 23:31:41.521 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 14 (13)
+Nov 19, 2020 23:31:41.710 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 14 (14)
+Nov 19, 2020 23:31:41.722 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 15 (14)
+Nov 19, 2020 23:31:42.684 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 15 (15)
+Nov 19, 2020 23:31:42.687 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 16 (15)
+Nov 19, 2020 23:31:42.825 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 16 (16)
+Nov 19, 2020 23:31:42.829 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 17 (16)
+Nov 19, 2020 23:31:43.098 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 17 (17)
+Nov 19, 2020 23:31:43.105 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 18 (17)
+Nov 19, 2020 23:31:43.311 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 18 (18)
+Nov 19, 2020 23:31:43.317 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 19 (18)
+Nov 19, 2020 23:31:43.431 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 19 (19)
+Nov 19, 2020 23:31:43.437 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 20 (19)
+Nov 19, 2020 23:31:43.696 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 20 (20)
+Nov 19, 2020 23:31:43.699 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 21 (20)
+Nov 19, 2020 23:31:44.015 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 21 (21)
+Nov 19, 2020 23:31:44.026 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 22 (21)
+Nov 19, 2020 23:31:44.464 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 22 (22)
+Nov 19, 2020 23:31:44.470 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 23 (22)
+Nov 19, 2020 23:31:44.916 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 23 (23)
+Nov 19, 2020 23:31:44.922 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 24 (23)
+Nov 19, 2020 23:31:45.441 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 24 (24)
+Nov 19, 2020 23:31:45.461 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 25 (24)
+Nov 19, 2020 23:31:45.573 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 25 (25)
+Nov 19, 2020 23:31:45.605 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 26 (25)
+Nov 19, 2020 23:31:45.708 [10436] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:45.710 [7112] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=9019&playQueueItemID=306&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=9000&duration=5764000 (15 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:45.711 [7112] DEBUG - Client [wize58n97r8kb9p6j902wls3] reporting timeline state playing, progress of 9000/5764000ms for guid=, playbackTime=9019ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:31:45.711 [7112] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:31:45.712 [7112] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:31:45.712 [7112] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:31:45.712 [7112] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:31:45.712 [7112] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:31:45.717 [5768] DEBUG - Completed: [155.4.57.54:62312] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=9019&playQueueItemID=306&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=9000&duration=5764000 (15 live) TLS GZIP 7ms 731 bytes (pipelined: 6)
+Nov 19, 2020 23:31:45.766 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 26 (26)
+Nov 19, 2020 23:31:45.771 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 27 (26)
+Nov 19, 2020 23:31:45.966 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 28 (27)
+Nov 19, 2020 23:31:45.966 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 28 (27)
+Nov 19, 2020 23:31:46.112 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 28 (28)
+Nov 19, 2020 23:31:46.118 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 29 (28)
+Nov 19, 2020 23:31:46.217 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 29 (29)
+Nov 19, 2020 23:31:46.223 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 30 (29)
+Nov 19, 2020 23:31:46.720 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 30 (30)
+Nov 19, 2020 23:31:46.725 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 31 (30)
+Nov 19, 2020 23:31:46.856 [10600] DEBUG - NetworkServiceBrowser: PLAYER departed after not being seen for 182.484203 seconds: 192.168.10.144
+Nov 19, 2020 23:31:47.060 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 31 (31)
+Nov 19, 2020 23:31:47.066 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 32 (31)
+Nov 19, 2020 23:31:47.316 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 32 (32)
+Nov 19, 2020 23:31:47.320 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 33 (32)
+Nov 19, 2020 23:31:47.788 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 33 (33)
+Nov 19, 2020 23:31:47.795 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 34 (33)
+Nov 19, 2020 23:31:48.214 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 34 (34)
+Nov 19, 2020 23:31:48.219 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 35 (34)
+Nov 19, 2020 23:31:48.532 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 35 (35)
+Nov 19, 2020 23:31:48.537 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 36 (35)
+Nov 19, 2020 23:31:48.758 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 36 (36)
+Nov 19, 2020 23:31:48.764 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 37 (36)
+Nov 19, 2020 23:31:49.018 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 37 (37)
+Nov 19, 2020 23:31:49.023 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 38 (37)
+Nov 19, 2020 23:31:49.203 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 38 (38)
+Nov 19, 2020 23:31:49.209 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 39 (38)
+Nov 19, 2020 23:31:50.303 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 39 (39)
+Nov 19, 2020 23:31:50.309 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 40 (39)
+Nov 19, 2020 23:31:50.669 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 40 (40)
+Nov 19, 2020 23:31:50.678 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 41 (40)
+Nov 19, 2020 23:31:51.155 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 41 (41)
+Nov 19, 2020 23:31:51.161 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 42 (41)
+Nov 19, 2020 23:31:51.454 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 42 (42)
+Nov 19, 2020 23:31:51.461 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 43 (42)
+Nov 19, 2020 23:31:51.915 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 43 (43)
+Nov 19, 2020 23:31:51.921 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 44 (43)
+Nov 19, 2020 23:31:52.151 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 44 (44)
+Nov 19, 2020 23:31:52.159 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 45 (44)
+Nov 19, 2020 23:31:52.375 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 45 (45)
+Nov 19, 2020 23:31:52.379 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 46 (45)
+Nov 19, 2020 23:31:52.546 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 46 (46)
+Nov 19, 2020 23:31:52.552 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 47 (46)
+Nov 19, 2020 23:31:52.650 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 47 (47)
+Nov 19, 2020 23:31:52.656 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 48 (47)
+Nov 19, 2020 23:31:52.784 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 48 (48)
+Nov 19, 2020 23:31:52.791 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 49 (48)
+Nov 19, 2020 23:31:52.913 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 49 (49)
+Nov 19, 2020 23:31:52.919 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 50 (49)
+Nov 19, 2020 23:31:53.036 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 50 (50)
+Nov 19, 2020 23:31:53.043 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 51 (50)
+Nov 19, 2020 23:31:53.232 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 51 (51)
+Nov 19, 2020 23:31:53.238 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 52 (51)
+Nov 19, 2020 23:31:53.874 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 52 (52)
+Nov 19, 2020 23:31:53.880 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 53 (52)
+Nov 19, 2020 23:31:54.792 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 53 (53)
+Nov 19, 2020 23:31:54.799 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 54 (53)
+Nov 19, 2020 23:31:55.274 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 54 (54)
+Nov 19, 2020 23:31:55.280 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 55 (54)
+Nov 19, 2020 23:31:55.519 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 55 (55)
+Nov 19, 2020 23:31:55.525 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 56 (55)
+Nov 19, 2020 23:31:55.655 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 56 (56)
+Nov 19, 2020 23:31:55.661 [1596] DEBUG - [Transcode] Transcoder segment range: 0 - 57 (56)
+Nov 19, 2020 23:31:55.708 [5768] DEBUG - Auth: authenticated user 16838260 as Semir.Hodzic
+Nov 19, 2020 23:31:55.709 [1596] DEBUG - Request: [155.4.57.54:62312 (WAN)] GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=19028&playQueueItemID=306&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=19000&duration=5764000 (9 live) TLS GZIP Signed-in Token (Semir.Hodzic)
+Nov 19, 2020 23:31:55.709 [1596] DEBUG - Client [wize58n97r8kb9p6j902wls3] reporting timeline state playing, progress of 19000/5764000ms for guid=, playbackTime=19028ms ratingKey=500 url=, key=/library/metadata/500, containerKey=, metadataId=500, source=
+Nov 19, 2020 23:31:55.710 [1596] DEBUG - [Now] User is Semir.Hodzic (ID: 16838260)
+Nov 19, 2020 23:31:55.710 [1596] DEBUG - [Now] Device is windows (DESKTOP-SE8HDL9).
+Nov 19, 2020 23:31:55.710 [1596] DEBUG - [Now] Profile is Plex Desktop
+Nov 19, 2020 23:31:55.710 [1596] DEBUG - [Now] Updated play state for /library/metadata/500.
+Nov 19, 2020 23:31:55.710 [1596] DEBUG - Statistics: (pwuue0s9et9uearhae84jcjj) Reporting active playback in state 0 of type 1 (scrobble: 0) for account 16838260
+Nov 19, 2020 23:31:55.713 [10436] DEBUG - Completed: [155.4.57.54:62312] 200 GET /:/timeline?ratingKey=500&key=%2Flibrary%2Fmetadata%2F500&playbackTime=19028&playQueueItemID=306&state=playing&hasMDE=1&context=source%3Ahub.movie.recentlyadded&time=19000&duration=5764000 (9 live) TLS GZIP 3ms 722 bytes (pipelined: 7)
+Nov 19, 2020 23:31:55.834 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 57 (57)
+Nov 19, 2020 23:31:55.840 [7112] DEBUG - [Transcode] Transcoder segment range: 0 - 58 (57)
+Nov 19, 2020 23:31:55.989 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 58 (58)
+Nov 19, 2020 23:31:55.995 [2152] DEBUG - [Transcode] Transcoder segment range: 0 - 59 (58)
+Nov 19, 2020 23:31:56.180 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 59 (59)
+Nov 19, 2020 23:31:56.187 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 60 (59)
+Nov 19, 2020 23:31:56.382 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 60 (60)
+Nov 19, 2020 23:31:56.388 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 61 (60)
+Nov 19, 2020 23:31:56.694 [4376] DEBUG - [Transcode] Transcoder segment range: 0 - 61 (61)
+Nov 19, 2020 23:31:56.696 [1324] DEBUG - [Transcode] Transcoder segment range: 0 - 62 (61)
+Nov 19, 2020 23:31:56.918 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 62 (62)
+Nov 19, 2020 23:31:56.924 [7184] DEBUG - [Transcode] Transcoder segment range: 0 - 63 (62)
