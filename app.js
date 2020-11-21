@@ -1,1 +1,3 @@
-import {  } from './day';
+require('./linkScraper')
+require('./dayScraper')
+// require('./cinema')
