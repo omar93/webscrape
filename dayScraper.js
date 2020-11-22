@@ -1,31 +1,28 @@
 const links = require('./linkScraper')
 const fetch = require('node-fetch')
 const jsdom = require('jsdom')
+
 const { JSDOM } = jsdom
 
-async function scrapeOks() {
-    let oks = []
-    let urls = await links.scrapeLinks('http://vhost3.lnu.se:20080/weekend')
+module.exports = { getMeetingDay } // Returns the agreed upon day
+
+async function getMeetingDay() {
+    let dayMatch
+    let answears = []
+    let personUrl = await links.getPeopleCalendarUrl('http://vhost3.lnu.se:20080/weekend')
+    console.log('Scraping links...OK')
     for(i = 0; i < 3; i++) {
-        oks.push(getOkDates(urls[i]))
+        let okData = await formatOkData(personUrl[i])
+        answears.push(okData)
     }
-    return oks
-}
-scrapeOks()
-getAgreedDay()
-
-async function getAgreedDay() {
-    let dayNumber = getAgreedDayNumber(dayarray)
-    let days = ['Friday', 'Saturday', 'Sunday']
-    day = days[dayNumber]
-    console.log('Scraping available days...OK')
-    console.log('Agreed day: ' + day)
+    dayMatch = getDayMatch(answears)
+    console.log(dayMatch)
+    return dayMatch
 }
 
-
-async function getOkDates(peronsUrl) {
+async function formatOkData(link) {
     let dates = []
-    let url = await fetch(peronsUrl)
+    let url = await fetch(link)
     url = await url.text()
     const dom = new JSDOM(url)
     let links = dom.window.document.querySelectorAll('td')
@@ -35,13 +32,32 @@ async function getOkDates(peronsUrl) {
     return dates
 }
 
-function getAgreedDayNumber(answears) {
-    for (let i = answears.length; i <= answears.length; i++) {
-        for (let j = 0; j < answears.length; j++) {
-            if (answears[i - 1][j] === 'ok' && answears[i - 2][j] === 'ok' && answears[i - 3][j] === 'ok') {
-                return j
+function getDayMatch(answears) {
+    let days = ['Friday', 'Saturday', 'Sunday']
+    for(let i = answears.length; i <= answears.length; i++) {
+        for(let j = 0; j < answears.length; j++) {
+            if(answears[i-1][j] ===  'ok' && answears[i-2][j] === 'ok' && answears[i-3][j] === 'ok') {
+                return days[j]
             }
         }
     }
-    return
+    return null
+}
+
+
+
+
+
+
+
+
+
+
+
+async function getAgreedDay() {
+    let dayNumber = getAgreedDayNumber(dayarray)
+    let days = ['Friday', 'Saturday', 'Sunday']
+    day = days[dayNumber]
+    console.log('Scraping available days...OK')
+    console.log('Agreed day: ' + day)
 }
